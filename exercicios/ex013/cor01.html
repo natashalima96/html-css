@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<h1>Tipos de Representação de Cores</h1>
+<h2 style="background-color: blue; color: white;">
+    Representação por nomes
+</h2>
+<p>Usando o próprio nome da cor para aplicar o estilo. Ex: red, white, blue, etc. Porém esse metodo é um tanto quando escaço, pois dá somente um pequeno número de possibilidades.</p>
+<h2 style="background-color: #0000ff; color: #ffffff;">Representação por códigos Hexadecimais</h2>
+<p> No código de  cores Hexadecimais ( iniciando sempre com #). Os números Hexadecimais são:0,1,2,3,4,5,6,7,8,9,A,B,C,D,F. Sendo que 0 é o digito menos significativo, e o F o digito mais significativo.
+</p>
+<p>Como funciona esse código em Hexadecimal? Basicamente toda cor é formada de combinações de vermelho, verde e azul. Exemplo de explicação da cor azul: 0000ff (00) quer dizer zero de vermelho. (00) quer dizer zero de verde. (ff) quer dizer o máximo de azul.</p>
+<h2 style="background-color: rgb(0,0,255); color: rgb(255,255,255);" >Representação em RGB (Red, Green, Blue)</h2>
+<p>No CSS, a representação de cores em RGB é feita utilizando a função rgb(), que define cores com base em suas componentes vermelha (R), verde (G) e azul (B). Cada componente pode variar de 0 a 255.</p>
+<p>Onde 0 é o minímo e 255 é o máximo</p>
+<ul>
+    <li>r é valor da cor vermelha</li>
+    <li>g é o valor da cor verde</li>
+    <li>b é o valor da cor azul</li>
+</ul>
+<p>Outra forma de representar cores em CSS é usando a função rgba(), que inclui um quarto parâmetro, a, que representa a opacidade (alpha) da cor, variando de 0 (completamente transparente) a 1 (completamente opaco):</p>
+<h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%); ">Representação por HSL (hue, saturation e lightnes)</h2>
+<p>A representação HSL em CSS refere-se a Hue (matiz), Saturation (saturação) e Lightness (luminosidade). O formato é hsl(hue, saturation%, lightness%), onde o hue é um ângulo de 0 a 360 graus, a saturação e a luminosidade variam de 0% a 100%. Essa forma permite uma abordagem mais intuitiva para manipular cores, já que se pode facilmente ajustar a intensidade e a clareza da cor</p>
+<h2 style="background-color: rgba(0, 0, 255, 0.562); color: white;">Facilitando o uso de cores no VS code</h2>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Modelos de Caixas</title>
+    <style>
+        h1 { /* block-level*/
+            background-color: lightslategray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray; 
+             /* shorthands*/
+
+             margin: 20px auto 40px auto;
+             /*shorthands (sempre siga a ordem cima, direita, baixo e esquerda )*/
+            
+            outline:5px dashed blueviolet;
+            /*shorthands*/
+
+            padding:10px;
+            /* shorthands. quando o todos os tamanhos da padding são iguais, basta colocar somente um valor*/
+
+
+        }
+        a { /*inline level*/
+
+           border: 2px solid darkred;
+
+           padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a> Vamos ver como tudo funciona.</p>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "UTF8";
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:linear-gradient(90deg, dimgray, lightgrey, darkgray);
+
+}
+header {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.432), rgba(255, 255, 255, 0.623), white);
+    padding: 10px 5px;
+    margin: 10px;
+}
+nav {
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.356);
+}
+nav > a {
+    text-decoration: dashed;
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+ 
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+h2 {
+    font-style: italic;
+    color: rgb(41, 41, 41);
+}
+main {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.432), rgba(255, 255, 255, 0.623), white);
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 5px 3px 5px 2px rgba(0, 0, 0, 0.315) ;
+}
+article > aside {
+    background-color: grey;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+    
+   
+}
+footer  {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 4px;
+}
+footer > p {
+    margin: 0px;
+}

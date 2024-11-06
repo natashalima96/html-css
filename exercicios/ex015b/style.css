@@ -1,0 +1,23 @@
+@charset "UTF8";
+body {
+    background-image:linear-gradient(90deg,black, rgb(71, 71, 71), rgb(70, 0, 70));
+    color: aqua;
+}
+#principal {
+    color: darkred;
+    background-color: rgba(139, 0, 0, 0.26);
+}
+.secundario {
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.267);
+}
+
+div > p {
+    display: none;
+   
+}
+div:hover > p {
+    display:block;
+    color: rgb(182, 3, 3);
+
+}
