@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 97vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            
+            /* Shorthand - backgroun
+            color > image > position > repeat > [size] > atrachment
+            Apesar da W3C incluir o size na shorthand do background, na prática ela não funciona.
+            */
+
+            background: black  url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
+
+
         }
         main {
+            text-align: center;
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 1px solid rgba(0, 0, 255, 0.226);
@@ -28,6 +40,10 @@
     <main>
         <h1>Teste de Imagens de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae reiciendis qui praesentium pariatur quae velit quibusdam facere eligendi. Blanditiis dolores sed adipisci asperiores iure odit nobis quos. Tempore, aut autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia cupiditate voluptate porro. In ipsa dicta possimus ex ipsum nisi tenetur quia fugit at, voluptas vitae, mollitia veniam, officia dolorem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed aut, earum quia quasi quisquam, eos cupiditate excepturi beatae ab perspiciatis sit ullam aliquam maiores vero sunt illum! Dolor, eius nesciunt.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem amet quasi vero! Perspiciatis expedita voluptate cum, voluptatibus necessitatibus aliquam quidem molestias magni officia doloremque voluptatum id ullam soluta error omnis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati deleniti in suscipit tenetur est aperiam harum earum natus fugit dicta placeat, asperiores provident quam quis dolore magni vitae sint quos? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae tempore neque vero itaque reiciendis quos animi. Error tempora facere odio earum at, deleniti magni tempore architecto nihil mollitia quia nam.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam maiores, omnis nesciunt fugiat, at dolorum sed dolores numquam modi provident blanditiis cum suscipit aliquid eaque repellendus odio officiis minima aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aperiam, possimus nobis molestias earum pariatur veritatis, deleniti ab suscipit adipisci voluptatem doloribus tempore porro sapiente! Corrupti quis illum tenetur pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime provident explicabo repudiandae quidem libero dignissimos architecto dicta tempora asperiores qui, in officia, sequi necessitatibus fuga laboriosam repellendus a delectus? Ab.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus asperiores voluptatibus hic, dolore nam quisquam officia est voluptates. Ab saepe amet culpa repudiandae quidem tempore sint veritatis ratione. Recusandae, voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae ab sapiente ut consequatur! Atque voluptates quisquam nulla dolore magni placeat omnis mollitia? Officiis vero corrupti, placeat eos impedit veniam dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugit ad suscipit, nostrum inventore voluptatum pariatur possimus quos incidunt maiores cupiditate aliquid omnis, reprehenderit delectus quasi aspernatur veniam nulla dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias illum dicta sunt perspiciatis quibusdam eligendi perferendis incidunt voluptatum fuga, sint temporibus minima non, eius modi a distinctio dolores explicabo.</p>
+
     </main>
 </body>
 </html>
